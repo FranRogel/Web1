@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUPERMERCADO - Ingresar nuevo producto</title>  
+</head>
+<body>
+  <table border="1" cellpadding="10" width="100%">
+    <tr>
+      <td>
+        <h1>SUPERMERCADO</h1>
+        <img src="https://img.freepik.com/foto-gratis/interior-gran-almacen-distribucion-estantes-apilados-paletas-productos-listos-mercado_342744-1481.jpg?w=800" 
+             width="600" alt="Almacen">
+      </td>
+    </tr>
+  </table>
+  <table border="1" cellpadding="10" width="600">
+    <tr>
+      <td>
+        <h2>INGRESAR NUEVO PRODUCTO</h2>
+        <form>
+          <label><strong>Elegir tipo de producto:</strong></label><br>
+          <select name="tipo">
+            <option value="sin_tacc">Sin TACC</option>
+            <option value="celiaco">Celíaco</option>
+            <option value="vegano">Vegano</option>
+            <option value="otros">Otros</option>
+          </select><br><br>
+          <label>Nombre del producto:</label><br>
+          <input type="text" name="titulo" placeholder="Nombre del producto"><br><br>
+          <label>Imagen del producto:</label><br>
+          <input type="file" name="imagen"><br><br>
+          <label>Precio:</label><br>
+          <input type="number" name="precio" placeholder="Precio en pesos"><br><br>
+          <label>Descripción:</label><br>
+          <textarea name="descripcion" rows="4" cols="50" placeholder="Descripción del producto..."></textarea><br><br>
+          <label>Características del producto:</label><br>
+          <input type="checkbox" name="caracteristicas" value="inflamable"> Inflamable<br>
+          <input type="checkbox" name="caracteristicas" value="reciclable"> Reciclable<br>
+          <input type="checkbox" name="caracteristicas" value="organico"> Orgánico<br><br>
+        </form>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
