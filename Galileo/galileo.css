@@ -1,0 +1,37 @@
+body {
+  font-family: "Lora", serif;
+  background-color: #1E3A5F;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  background-color: #031021;
+  color: #CFAE63;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: left;
+}
+
+section {
+  color: white;
+  text-align: justify;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+div p {
+  text-align: center;
+}/*# sourceMappingURL=galileo.css.map */

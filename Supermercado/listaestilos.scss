@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Hina+Mincho&display=swap');
+
+$negro: #1c2529;
+$fondo-producto: #f6f6f6;
+$rojo-principal: #c0392b;
+$rojo-secundario: #d98880;
+
+body
+{
+    font-family: "Geist", sans-serif;
+}
+
+img 
+{
+    max-width: 25%;
+}
+
+h1 
+{
+    color: $rojo-principal;
+    text-align: center;
+}
+
+table 
+{
+    background-color: $fondo-producto;
+}
+
+th 
+{
+    background-color: $rojo-principal;
+    color: white;
+}
+
+td 
+{
+    border: 3px solid $rojo-secundario;
+    color: $negro;
+    text-align: center;
+}
+
+.precio 
+{
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: green;
+    text-align: right;
+}
+
+.vegano 
+{
+    color: #228B22;
+}
+
+.sinTacc 
+{
+    color: #32CD32;
+}

@@ -1,0 +1,54 @@
+$titulo-font: 'Playfair Display', serif;
+$texto-font: 'Lora', serif;
+
+$color-texto: #031021;
+$color-principal: #1E3A5F;
+$color-secundario: #CFAE63;
+
+body
+{
+    font-family: $texto-font;
+    background-color: $color-principal;
+}
+
+h1 , h2, h3 
+{
+    font-family: $titulo-font;
+    background-color: $color-texto;
+    color: $color-secundario;
+    text-align: center;
+}
+
+p
+{
+    color: white;
+    text-align: left;
+}
+
+section
+{
+    color: white;
+    text-align: justify;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;;
+}
+
+figcaption 
+{
+    text-align: center;
+}
+
+div 
+{
+    p
+    {
+        text-align: center;
+    }
+}

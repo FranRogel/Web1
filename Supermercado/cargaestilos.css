@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Hina+Mincho&display=swap");
+body {
+  font-family: "Geist", sans-serif;
+}
+
+.tabla {
+  background-color: #d98880;
+  width: 100%;
+  border: 2px solid #c0392b;
+  color: #000000;
+}
+.tabla h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+.tabla td {
+  background-color: #c0392b;
+  padding: 10px;
+  border: 2px solid #d98880;
+  text-align: center;
+}
+
+.tabla2 {
+  background-color: #f0d2cf;
+  width: 100%;
+  border: 2px solid #c0392b;
+  color: #000000;
+}
+.tabla2 h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.tabla2 td {
+  background-color: #c0392b;
+  padding: 10px;
+  border: 2px solid #d98880;
+}
+.tabla2 label {
+  display: block;
+  margin: 8px 0 4px;
+  font-weight: bold;
+}
+.tabla2 select, .tabla2 textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 95%;
+}/*# sourceMappingURL=cargaestilos.css.map */
